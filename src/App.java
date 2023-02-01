@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class App {
+public class App   {
     public static void main(String[] args) throws Exception {
         //gary and mary are time travelers and they take us on an adventure
         Scanner sc = new Scanner(System.in);
@@ -27,45 +27,116 @@ public class App {
                                     " You slowly take a peak around the corner and see...Mary and Gary? " +
                                         " You rub your eyes and take a closer look and you see Mary and Gary sitting at a tiny table with candles surrounding them.");
 
-                    System.out.println(" Do you want to (1) stay hidden and eavesdrop? or (2) confront them?");
-                    choice = sc.nextLine();
+            System.out.println(" Do you want to (1) stay hidden and eavesdrop? or (2) confront them?");
+            choice = sc.nextLine();
 
-                    if (choice.equals("1")) {
-                        System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
-                        System.out.println(" You decide to stay hidden and eavesdrop. It's quiet, but you can hear them talking." +
+            if (choice.equals("1")) {
+                System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
+                System.out.println(" You decide to stay hidden and eavesdrop. It's quiet, but you can hear them talking." +
                                             " After silently freaking out, you stop and listen to what they're saying.");
 
-                        System.out.println("Gary: I can't believe that those idiots still haven't figured us out yet");
-                        System.out.println("Mary: I mean can you blame them? They aren't the smartest bunch. They see cute fluffy creatures like us and take us in, I mean we're basically strangers." +
+                System.out.println("Gary: I can't believe that those idiots still haven't figured us out yet");
+                System.out.println("Mary: I mean can you blame them? They aren't the smartest bunch. They see cute fluffy creatures like us and take us in, I mean we're basically strangers." +
                                                 " They both begin to laugh.");
-                        System.out.println(" After hearing this you get offended. You can either (1) confront them and give them a piece of your mind or (2) go back to bed and cry yourself to sleep"); 
-                        choice = sc.nextLine();
+                System.out.println(" After hearing this you get offended. You can either (1) confront them and give them a piece of your mind or (2) go back to bed and cry yourself to sleep"); 
+                choice = sc.nextLine();
+                    
 
-                        if (choice.equals("1")) {
-                            System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
-                            System.out.println("You decide to confront them and give them a piece of your mind. After you jump out, Gary reaches for his button until he realizes that you heard everything." + 
+                if (choice.equals("1")) {
+                    System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
+                    System.out.println("You decide to confront them and give them a piece of your mind. After you jump out, Gary reaches for his button until he realizes that you heard everything." + 
                                                     " Realizing that they've been caught they start explaining everything to you. They tell you all about their planet,____, and how it was destroyed during a 10 year war with the Dog species." +
                                                         " Not having anywhere to go, the now displaced Cats and Dogs had to take refuge on Earth and live with Humans and hopefully get adopted and take shelter until everything is figured out on their planet.");
-                            System.out.println("__________________________________________________________________________________________________________________________________________________________________________________________");
+                } else if (choice.equals("2")){ 
+                            System.out.println("You decide to go back to bed and cry yourself to sleep. If only you had confronted them... maybe you would hav gone on a crazy and fun adventure with your amazing gf ;)");
+                }
+                            //first conversation
+                            System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                             System.out.println("(You will now have conversation options, they work the same as making choices but they don't have as much of an impact on the storyline (mostly just for lore)");
-                            System.out.println("__________________________________________________________________________________________________________________________________________________________________________________________");
+                            System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
+                            while(true) {
                             System.out.println(" Do you want to (1) Ask them about the war, (2) Ask them how long they've been on earth, (3) Ask how long they're staying");
-                        }
+                            choice = sc.nextLine();
 
-                    } else {
+                            if (choice.equals("1")) {
+                                System.out.println("You ask them about the war. They turn and look at each other with an expression you don't recognize." + 
+                                                         " Gary opens his mouth and begins to talk: It all started at the annual alien convention (humans obviously aren't invited)." + 
+                                                            " Long story short the Cat Representatives were all eaten by the Dog Representatives. That event started a long and brutal battle that ended with both planets being blown up." + 
+                                                                " Having nowhere else to go, we all had to set aside our differences and settle in on Earth");
+
+                                System.out.println("Do you want to (2) Ask them about how long they've been on Earth, (3) Ask how long they're staying on Earth or (4) End the conversation");
+                                String anotherQuestion = sc.nextLine();
+
+                                if (anotherQuestion.equals("2")) {
+                                            System.out.println("You ask them how long they've been on Earth. They exchange looks and kind of giggle a little. " + 
+                                                                    " Mary opens her mouth and begins to talk: Well that's a funny story... We've technically only been on Earth for 8 years. " +
+                                                                         " On our planet we invented a mind control device that allows us to implant memories. " +
+                                                                             " After all of the implanting and building a few sculptures, we had all of the material we needed to make everyone believe that we had been here since the beginning of time.");
+
+                                } else if (anotherQuestion.equals("3")) {
+                                            System.out.println(" You ask them how long they'll be staying on Earth. They respond by saying that they plan on leaving as soon as they fix up their planet");
+                                } else if (anotherQuestion.equals("4")) {
+                                            break;
+                                }
+                            } else if (choice.equals("2")) {
+                                        System.out.println("You ask them how long they've been on Earth. They exchange looks and kind of giggle a little. " + 
+                                                                    " Mary opens her mouth and begins to talk: Well that's a funny story... We've technically only been on Earth for 8 years. " +
+                                                                        " On our planet we invented a mind control device that allows us to implant memories. " +
+                                                                            " After all of the implanting and building a few sculptures, we had all of the material we needed to make everyone believe that we had been here since the beginning of time.");
+
+
+                                        System.out.println("Do you want to (1) Ask them about the war, (3) Ask how long they're staying on Earth, (4) End the conversation");
+                                        String anotherQuestion = sc.nextLine();
+
+                                        if (anotherQuestion.equals("1")) {
+                                                System.out.println("You ask them about the war. They turn and look at each other with an expression you don't recognize." + 
+                                                            " Gary opens his mouth and begins to talk: It all started at the annual alien convention (humans obviously aren't invited)." + 
+                                                                " Long story short the Cat Representatives were all eaten by the Dog Representatives. That event started a long and brutal battle that ended with both planets being blown up." + 
+                                                                    " Having nowhere else to go, we all had to set aside our differences and settle in on Earth");
+
+                                        } else if (anotherQuestion.equals("3")) {
+                                                    System.out.println(" You ask them how long they'll be staying on Earth. They respond by saying that they plan on leaving as soon as they fix up their planet");
+
+                                        } else if (anotherQuestion.equals("4")) {
+                                                    break;
+                                        }
+                            } else if (choice.equals("3")) {
+                                        System.out.println(" You ask them how long they'll be staying on Earth. They respond by saying that they plan on leaving as soon as they fix up their planet");
+
+                                        System.out.println("Do you want to (1) Ask them about the war, (2) Ask them how long they've been on Earth, (4) End the conversation");
+                                        String anotherQuestion = sc.nextLine();
+
+                                        if (anotherQuestion.equals("1")) {
+                                                System.out.println("You ask them about the war. They turn and look at each other with an expression you don't recognize." + 
+                                                                            " Gary opens his mouth and begins to talk: It all started at the annual alien convention (humans obviously aren't invited)." + 
+                                                                                " Long story short the Cat Representatives were all eaten by the Dog Representatives. That event started a long and brutal battle that ended with both planets being blown up." + 
+                                                                                    " Having nowhere else to go, we all had to set aside our differences and settle in on Earth");
+
+                                        } else if (anotherQuestion.equals("2")) {
+                                                        System.out.println("You ask them how long they've been on Earth. They exchange looks and kind of giggle a little. " + 
+                                                                            " Mary opens her mouth and begins to talk: Well that's a funny story... We've technically only been on Earth for 8 years. " +
+                                                                                " On our planet we invented a mind control device that allows us to implant memories. " +
+                                                                                    " After all of the implanting and building a few sculptures, we had all of the material we needed to make everyone believe that we had been here since the beginning of time.");
+                                        } else if (anotherQuestion.equals("4")) {
+                                                    break;
+                                        }   
+                            }
+                        }
+            } else if (choice.equals("2")) {
                         System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
                         System.out.println("You decide to confront them. Unfortunately, Gary was prepared for this and pushed a button that made everything disappear." + 
                                                 " Since you don't have any proof (like eavesdropping on their conversation wink wink) you can only assume that you imagined seeing anything");
                         System.out.println("GAMEOVER");
                         System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
                         }
-        } else {
+        } else if (choice.equals("2")) {
             System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
             System.out.println("You go back to sleep and miss out on all the fun.");
             System.out.println("GAMEOVER");
             System.out.println("♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡");
-        }
-
-    }
-}
+            }
+    
+        
+    }       
+}        
